@@ -23,6 +23,30 @@ const ciudades = [
         coordenadas: [3.451, -76.532],
         sitiosInteres: { "01": "Zoológico de Cali", "02": "Cristo Rey" }
     },
+        {
+        nombre: "Barranquilla",
+        habitantes: 1200000,
+        mtroNivelMar: 10,
+        temperaturaPromedio: 28,
+        coordenadas: [10.968, -74.781],
+        sitiosInteres: { "01": "Malecon", "02": "Zoologico" }
+    },
+    {
+        nombre: "Cartagena",
+        habitantes: 1000000,
+        mtroNivelMar: 2,
+        temperaturaPromedio: 27,
+        coordenadas: [10.399, -75.514],
+        sitiosInteres: { "01": "Castillo San Felipe", "02": "Ciudad Amurallada" }
+    },
+    {
+        nombre: "Santa Marta",
+        habitantes: 500000,
+        mtroNivelMar: 6,
+        temperaturaPromedio: 27,
+        coordenadas: [11.240, -74.199],
+        sitiosInteres: { "01": "Parque Tayrona", "02": "Sierra Nevada" }
+    }
 ];
 
 const tbody = document.querySelector("#tablaCiudades tbody");
