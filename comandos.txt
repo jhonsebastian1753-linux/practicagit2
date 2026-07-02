@@ -1,0 +1,23 @@
+mkdir practicagit2
+cd practicagit2
+touch index.html app.js
+git init
+git config --global user.name "jhonsebastian1753-linux"
+git config --global user.email "jhonsebastian1753@gmail.com"
+git add index.html app.js
+git commit -m "feat: agregar estructura inicial del proyecto"
+git add .
+git commit -m "feat: agregar HTML y JS con datos de ciudades"
+git remote add origin https://github.com/jhonsebastian1753-linux/practicagit2.git
+git branch -M main
+git push -u origin main
+git add .
+git commit -m "feat: agregar 2 ciudades mas"
+git push
+git add .
+git commit -m "feat: agregar maquetacion CSS"
+git push
+git add .
+git commit -m "feat: agregar 3 ciudades mas"
+git push
+git log --oneline
