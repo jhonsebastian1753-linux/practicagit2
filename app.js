@@ -6,7 +6,23 @@ const ciudades = [
         temperaturaPromedio: 14,
         coordenadas: [4.711, -74.072],
         sitiosInteres: { "01": "parque simon bolivar", "02": "Zoológico" }
-    }
+    },
+    {
+        nombre: "Medellín",
+        habitantes: 2500000,
+        mtroNivelMar: 1500,
+        temperaturaPromedio: 22,
+        coordenadas: [6.247, -75.565],
+        sitiosInteres: { "01": "Parque Explora", "02": "jardin botanico" }
+    },
+    {
+        nombre: "Cali",
+        habitantes: 2200000,
+        mtroNivelMar: 1000,
+        temperaturaPromedio: 25,
+        coordenadas: [3.451, -76.532],
+        sitiosInteres: { "01": "Zoológico de Cali", "02": "Cristo Rey" }
+    },
 ];
 
 const tbody = document.querySelector("#tablaCiudades tbody");
